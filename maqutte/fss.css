@@ -1,0 +1,123 @@
+ {
+  border: 1px solid black;
+}
+
+body {
+background: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 20%, rgba(168,165,168,1) 50%, rgba(0,0,0,1) 80%, rgba(0,0,0,1) 100%);}
+
+.background {
+  background: url("background_quest1.png") no-repeat center center;
+  background-size: 51em 439em;
+}
+
+#override {
+  color: white;
+}
+
+h1, h2, h4, h5, ul {
+text-transform: capitalize;
+}
+
+h2 {
+  border-top: 3px solid yellow;
+}
+
+small {
+  color: yellow;
+}
+
+b {
+  color: yellow;
+}
+
+#yellowFill {
+  text-transform: capitalize;
+  background-color: yellow;
+  color: black;
+}
+
+.extras {
+  border-left: 3px solid yellow;
+  padding-left: .5em;
+}
+
+
+.blog {
+  margin-left: 4em;
+}
+
+.skate1 {
+  margin: 0.5em;
+  margin-bottom: 0;
+  padding: 2px;
+  border: 3px solid yellow;
+}
+
+#forget {
+  border-top: none;
+}
+
+ul.superLinks {
+  list-style-image: url('bullet.gif');
+}
+
+#tableTitle {
+  border-collapse: collapse;
+  border: 1px solid #3a3a3a;
+  background-color: #1c1c1c;
+}
+
+tr {
+  border-bottom: 1px solid #3a3a3a;
+}
+
+tbody {
+  padding: 5em 12em 5em 3em;
+}
+
+#title {
+  margin-top: 2em;
+  margin-left: 1em;
+  z-index: 6000;
+  position: relative;
+  border-top: none;
+}
+
+.midImg {
+  margin-left: 2.9em;
+}
+
+#titleImg {
+  margin-top: -11.4em;
+  margin-left: -3em;
+  position: relative;
+  z-index: 0;
+}
+
+ul.rightLinks{
+  list-style-image: url('star1.jpg');
+  font-size: 110%;
+  font-weight: bold;
+}
+
+.rightTitle {
+  border-top: 3px solid yellow;
+}
+
+.rightList {
+  border: 3px solid yellow;
+  list-style: none;
+}
+
+.footImg {
+  margin-top: 37.2em;
+  margin-left: -85px;
+  z-index: -50;
+}
+
+footer {
+  margin: 0em -32em;
+  margin-top: -2em;
+  margin-left: -1em;
+  z-index: 6000;
+}
